@@ -5,7 +5,7 @@ if len(sys.argv) < 3:
     print("usage: python student.py <name> <roll_no>")
     sys.exit(1)
 
-# Assign arguments
+script_name = sys.argv[0]
 name = sys.argv[1]
 roll_no = sys.argv[2]
 
